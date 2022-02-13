@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\guilh\Documents\QuartusProjects\RegistradorDeslocamentoNaoBloqueante\simulation\modelsim
+vRegistradorDeslocamentoNaoBloqueante
+Ih_K<4Q`1MWO_CSB1;CkSC3
+VX8k2M1lW>Ad7ZiTJF>K<:2
+Z1 dC:\Users\guilh\Documents\QuartusProjects\RegistradorDeslocamentoNaoBloqueante\simulation\modelsim
+w1643134193
+8C:/Users/guilh/Documents/QuartusProjects/RegistradorDeslocamentoNaoBloqueante/RegistradorDeslocamentoNaoBloqueante.v
+FC:/Users/guilh/Documents/QuartusProjects/RegistradorDeslocamentoNaoBloqueante/RegistradorDeslocamentoNaoBloqueante.v
+L0 22
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+n@registrador@deslocamento@nao@bloqueante
+!i10b 1
+!s100 meIbK<@>hc6S>gzQg>e[02
+!s85 0
+!s108 1643134724.064000
+!s107 C:/Users/guilh/Documents/QuartusProjects/RegistradorDeslocamentoNaoBloqueante/RegistradorDeslocamentoNaoBloqueante.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/guilh/Documents/QuartusProjects/RegistradorDeslocamentoNaoBloqueante|C:/Users/guilh/Documents/QuartusProjects/RegistradorDeslocamentoNaoBloqueante/RegistradorDeslocamentoNaoBloqueante.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/guilh/Documents/QuartusProjects/RegistradorDeslocamentoNaoBloqueante -O0
+vTB_regis
+!i10b 1
+!s100 VLG3=5cFKX9jRBfdcSd@^0
+I>EnmUaWG66PQgJlbQ;eZg0
+VzA7OWnJ^NiAdWY<M7L1HL0
+R1
+w1643134013
+8C:/Users/guilh/Documents/QuartusProjects/RegistradorDeslocamentoNaoBloqueante/testbench_registrador_naoBloqueante.v
+FC:/Users/guilh/Documents/QuartusProjects/RegistradorDeslocamentoNaoBloqueante/testbench_registrador_naoBloqueante.v
+L0 11
+R2
+r1
+!s85 0
+31
+!s108 1643134724.148000
+!s107 C:/Users/guilh/Documents/QuartusProjects/RegistradorDeslocamentoNaoBloqueante/testbench_registrador_naoBloqueante.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/guilh/Documents/QuartusProjects/RegistradorDeslocamentoNaoBloqueante|C:/Users/guilh/Documents/QuartusProjects/RegistradorDeslocamentoNaoBloqueante/testbench_registrador_naoBloqueante.v|
+!s101 -O0
+R3
+R4
+n@t@b_regis

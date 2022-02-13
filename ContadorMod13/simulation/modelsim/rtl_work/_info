@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\guilh\Documents\QuartusProjects\ContadorMod13\simulation\modelsim
+vContadorMod13
+I8?z?o_jXf0b]LYLPLT5;b2
+V_zd;e1QPHKhSnAZE^bCA]2
+Z1 dC:\Users\guilh\Documents\QuartusProjects\ContadorMod13\simulation\modelsim
+w1644533428
+8C:/Users/guilh/Documents/QuartusProjects/ContadorMod13/ContadorMod13.v
+FC:/Users/guilh/Documents/QuartusProjects/ContadorMod13/ContadorMod13.v
+L0 19
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+n@contador@mod13
+!i10b 1
+!s100 nFe8`J1;3[f1Q3TEHmabk0
+!s85 0
+!s108 1644533663.874000
+!s107 C:/Users/guilh/Documents/QuartusProjects/ContadorMod13/ContadorMod13.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/guilh/Documents/QuartusProjects/ContadorMod13|C:/Users/guilh/Documents/QuartusProjects/ContadorMod13/ContadorMod13.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/guilh/Documents/QuartusProjects/ContadorMod13 -O0
+vTB_contadorMod13
+!i10b 1
+!s100 >4bdIAKZ[5k49z8[;`H833
+I^B53hU_fbo0Pk@IK5QG[e1
+VfURmaW6C<Y721z`=a15?V1
+R1
+w1644533419
+8C:/Users/guilh/Documents/QuartusProjects/ContadorMod13/testbench.v
+FC:/Users/guilh/Documents/QuartusProjects/ContadorMod13/testbench.v
+L0 13
+R2
+r1
+!s85 0
+31
+!s108 1644533663.947000
+!s107 C:/Users/guilh/Documents/QuartusProjects/ContadorMod13/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/guilh/Documents/QuartusProjects/ContadorMod13|C:/Users/guilh/Documents/QuartusProjects/ContadorMod13/testbench.v|
+!s101 -O0
+R3
+R4
+n@t@b_contador@mod13

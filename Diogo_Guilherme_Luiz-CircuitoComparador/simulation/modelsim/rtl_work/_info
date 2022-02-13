@@ -1,0 +1,26 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\guilh\Documents\QuartusProjects\Diogo_Guilherme_Luiz-CircuitoComparador\simulation\modelsim
+vCircuitoComparador
+!i10b 1
+!s100 >kN:dY8M4BE]>`NAcD5Ye3
+I?m;<d2LJdZUJf[fP0J9O71
+V:ZCNncJ8:LdfSg<lnZGYV0
+Z1 dC:\Users\guilh\Documents\QuartusProjects\Diogo_Guilherme_Luiz-CircuitoComparador\simulation\modelsim
+w1637084129
+8C:/Users/guilh/Documents/QuartusProjects/Diogo_Guilherme_Luiz-CircuitoComparador/CircuitoComparador.v
+FC:/Users/guilh/Documents/QuartusProjects/Diogo_Guilherme_Luiz-CircuitoComparador/CircuitoComparador.v
+L0 6
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1637085189.894000
+!s107 C:/Users/guilh/Documents/QuartusProjects/Diogo_Guilherme_Luiz-CircuitoComparador/CircuitoComparador.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/guilh/Documents/QuartusProjects/Diogo_Guilherme_Luiz-CircuitoComparador|C:/Users/guilh/Documents/QuartusProjects/Diogo_Guilherme_Luiz-CircuitoComparador/CircuitoComparador.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/guilh/Documents/QuartusProjects/Diogo_Guilherme_Luiz-CircuitoComparador -O0
+n@circuito@comparador

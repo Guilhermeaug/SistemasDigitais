@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\guilh\Documents\QuartusProjects\mux_41\simulation\modelsim
+vmux_21
+!i10b 1
+!s100 YST<1MJOG8;P_P2l1;ETS0
+IWiUhIBA?Qa=LYV3^AgJ]z0
+Vb:J3?=ne2oz?ol<?d<4>`3
+Z1 dC:\Users\guilh\Documents\QuartusProjects\mux_41\simulation\modelsim
+w1638909188
+8C:/Users/guilh/Documents/QuartusProjects/mux_41/mux_21.v
+FC:/Users/guilh/Documents/QuartusProjects/mux_41/mux_21.v
+L0 7
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1638909852.036000
+!s107 C:/Users/guilh/Documents/QuartusProjects/mux_41/mux_21.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/guilh/Documents/QuartusProjects/mux_41|C:/Users/guilh/Documents/QuartusProjects/mux_41/mux_21.v|
+!s101 -O0
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/guilh/Documents/QuartusProjects/mux_41 -O0
+vmux_41
+IAgUHk[?_@W4Z84k6Pe>I73
+VYi<o:_O_2R8ZZk?fVPU8c0
+R1
+w1638909665
+8C:/Users/guilh/Documents/QuartusProjects/mux_41/mux_41.v
+FC:/Users/guilh/Documents/QuartusProjects/mux_41/mux_41.v
+L0 7
+R2
+r1
+31
+R3
+!i10b 1
+!s100 N`3z2LS2W]1RozDU@mVzQ1
+!s85 0
+!s108 1638909851.970000
+!s107 C:/Users/guilh/Documents/QuartusProjects/mux_41/mux_41.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/guilh/Documents/QuartusProjects/mux_41|C:/Users/guilh/Documents/QuartusProjects/mux_41/mux_41.v|
+!s101 -O0
+R4

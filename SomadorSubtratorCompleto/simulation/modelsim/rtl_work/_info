@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\guilh\Documents\QuartusProjects\SomadorSubtratorCompleto\simulation\modelsim
+vSomadorSubtratorCompleto
+I]j_DKMNgfVmVNDWBMfLOe2
+VARC<iT>d>H:Y;GC@TX=021
+Z1 dC:\Users\guilh\Documents\QuartusProjects\SomadorSubtratorCompleto\simulation\modelsim
+w1641913361
+8C:/Users/guilh/Documents/QuartusProjects/SomadorSubtratorCompleto/SomadorSubtratorCompleto.v
+FC:/Users/guilh/Documents/QuartusProjects/SomadorSubtratorCompleto/SomadorSubtratorCompleto.v
+L0 16
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+n@somador@subtrator@completo
+!i10b 1
+!s100 cJfShOZEWi=l_fEZ1Ga8z1
+!s85 0
+!s108 1641919786.070000
+!s107 C:/Users/guilh/Documents/QuartusProjects/SomadorSubtratorCompleto/SomadorSubtratorCompleto.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/guilh/Documents/QuartusProjects/SomadorSubtratorCompleto|C:/Users/guilh/Documents/QuartusProjects/SomadorSubtratorCompleto/SomadorSubtratorCompleto.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/guilh/Documents/QuartusProjects/SomadorSubtratorCompleto -O0
+vSomadorUmBit
+!i10b 1
+!s100 6]S7:nHV`9ERTBab3`Ihc2
+IciFY?gFalzP:h2SVDC[^j3
+V0Uh0@_mfH;9YnX5c2SlS;2
+R1
+w1641907053
+8C:/Users/guilh/Documents/QuartusProjects/SomadorSubtratorCompleto/SomadorUmBit.v
+FC:/Users/guilh/Documents/QuartusProjects/SomadorSubtratorCompleto/SomadorUmBit.v
+L0 19
+R2
+r1
+!s85 0
+31
+!s108 1641919786.164000
+!s107 C:/Users/guilh/Documents/QuartusProjects/SomadorSubtratorCompleto/SomadorUmBit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/guilh/Documents/QuartusProjects/SomadorSubtratorCompleto|C:/Users/guilh/Documents/QuartusProjects/SomadorSubtratorCompleto/SomadorUmBit.v|
+!s101 -O0
+R3
+R4
+n@somador@um@bit

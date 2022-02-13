@@ -1,0 +1,47 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do mux_41_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/guilh/Documents/QuartusProjects/mux_41 {C:/Users/guilh/Documents/QuartusProjects/mux_41/mux_41.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux_41
+# 
+# Top level modules:
+# 	mux_41
+# vlog -vlog01compat -work work +incdir+C:/Users/guilh/Documents/QuartusProjects/mux_41 {C:/Users/guilh/Documents/QuartusProjects/mux_41/mux_21.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux_21
+# 
+# Top level modules:
+# 	mux_21
+# 
+vsim work.mux_41
+# vsim work.mux_41 
+# Loading work.mux_41
+# Loading work.mux_21
+wave create -driver freeze -pattern clock -initialvalue 1 -period 88ps -dutycycle 60 -starttime 0ps -endtime 1000ps sim:/mux_41/I0
+wave create -driver freeze -pattern clock -initialvalue 1 -period 88ps -dutycycle 60 -starttime 0ps -endtime 1000ps sim:/mux_41/I1
+wave create -driver freeze -pattern clock -initialvalue 1 -period 5ps -dutycycle 70 -starttime 0ps -endtime 1000ps sim:/mux_41/I2
+wave create -driver freeze -pattern clock -initialvalue 0 -period 300ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/mux_41/I3
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 300ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/mux_41/I3
+wave create -driver freeze -pattern clock -initialvalue 1 -period 88ps -dutycycle 60 -starttime 0ps -endtime 10000ps sim:/mux_41/I0
+wave create -driver freeze -pattern clock -initialvalue 1 -period 88ps -dutycycle 60 -starttime 0ps -endtime 10000ps sim:/mux_41/I1
+wave create -driver freeze -pattern clock -initialvalue 1 -period 5ps -dutycycle 70 -starttime 0ps -endtime 10000ps sim:/mux_41/I2
+wave create -driver freeze -pattern clock -initialvalue 0 -period 300ps -dutycycle 50 -starttime 0ps -endtime 10000ps sim:/mux_41/I3
+add wave -position end  sim:/mux_41/A
+wave create -driver freeze -pattern clock -initialvalue 1 -period 100ps -dutycycle 50 -starttime 0ps -endtime 10000ps sim:/mux_41/A
+wave create -driver freeze -pattern clock -initialvalue 1 -period 75ps -dutycycle 40 -starttime 0ps -endtime 10000ps sim:/mux_41/B
+add wave -position end  sim:/mux_41/S
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/guilh/Documents/QuartusProjects/mux_41/simulation/modelsim/wave.do
+wave editwrite -file C:/Users/guilh/Documents/QuartusProjects/mux_41/simulation/modelsim/wave.do -append
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/guilh/Documents/QuartusProjects/mux_41/simulation/modelsim/wave.do
+wave editwrite -file C:/Users/guilh/Documents/QuartusProjects/mux_41/simulation/modelsim/wave.do -append

@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\guilh\Documents\QuartusProjects\Comparador4Bits\simulation\modelsim
+vComparadorBit
+!i10b 1
+!s100 M:a8GALH7;Njd@DgzLN?H2
+I9@RgfYXZ6^JJncemgz8J?0
+VmmDTEmXDn@>Ch13;>;K220
+Z1 dC:\Users\guilh\Documents\QuartusProjects\Comparador4Bits\simulation\modelsim
+w1637774470
+8C:/Users/guilh/Documents/QuartusProjects/Comparador4Bits/ComparadorBit.v
+FC:/Users/guilh/Documents/QuartusProjects/Comparador4Bits/ComparadorBit.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1637775369.345000
+!s107 C:/Users/guilh/Documents/QuartusProjects/Comparador4Bits/ComparadorBit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/guilh/Documents/QuartusProjects/Comparador4Bits|C:/Users/guilh/Documents/QuartusProjects/Comparador4Bits/ComparadorBit.v|
+!s101 -O0
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/guilh/Documents/QuartusProjects/Comparador4Bits -O0
+n@comparador@bit
+vComparadorMagnitude
+I7HT[dBgHXJ@gO[kmz_6>>1
+VEE3ho[GC0oFBTBTC3nODG3
+R1
+w1637775255
+8C:/Users/guilh/Documents/QuartusProjects/Comparador4Bits/ComparadorMagnitude.v
+FC:/Users/guilh/Documents/QuartusProjects/Comparador4Bits/ComparadorMagnitude.v
+L0 7
+R2
+r1
+31
+R3
+n@comparador@magnitude
+!i10b 1
+!s100 4G54XQ4T2F_:l5jh_8C]]0
+!s85 0
+!s108 1637775369.250000
+!s107 C:/Users/guilh/Documents/QuartusProjects/Comparador4Bits/ComparadorMagnitude.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/guilh/Documents/QuartusProjects/Comparador4Bits|C:/Users/guilh/Documents/QuartusProjects/Comparador4Bits/ComparadorMagnitude.v|
+!s101 -O0
+R4

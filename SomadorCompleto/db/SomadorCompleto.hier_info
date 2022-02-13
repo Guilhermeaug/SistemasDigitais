@@ -1,0 +1,72 @@
+|SomadorCompleto
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+soma[0] <= SomadorUmBit:somadorUm.port3
+soma[1] <= SomadorUmBit:somadorDois.port3
+soma[2] <= SomadorUmBit:somadorTres.port3
+soma[3] <= SomadorUmBit:somadorQuatro.port3
+soma[4] <= SomadorUmBit:somadorQuatro.port4
+
+
+|SomadorCompleto|SomadorUmBit:somadorUm
+a => soma.IN0
+a => tSaida.IN0
+a => tSaida.IN0
+b => soma.IN1
+b => tSaida.IN0
+b => tSaida.IN1
+tEntrada => soma.IN1
+tEntrada => tSaida.IN1
+tEntrada => tSaida.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+tSaida <= tSaida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorCompleto|SomadorUmBit:somadorDois
+a => soma.IN0
+a => tSaida.IN0
+a => tSaida.IN0
+b => soma.IN1
+b => tSaida.IN0
+b => tSaida.IN1
+tEntrada => soma.IN1
+tEntrada => tSaida.IN1
+tEntrada => tSaida.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+tSaida <= tSaida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorCompleto|SomadorUmBit:somadorTres
+a => soma.IN0
+a => tSaida.IN0
+a => tSaida.IN0
+b => soma.IN1
+b => tSaida.IN0
+b => tSaida.IN1
+tEntrada => soma.IN1
+tEntrada => tSaida.IN1
+tEntrada => tSaida.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+tSaida <= tSaida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorCompleto|SomadorUmBit:somadorQuatro
+a => soma.IN0
+a => tSaida.IN0
+a => tSaida.IN0
+b => soma.IN1
+b => tSaida.IN0
+b => tSaida.IN1
+tEntrada => soma.IN1
+tEntrada => tSaida.IN1
+tEntrada => tSaida.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+tSaida <= tSaida.DB_MAX_OUTPUT_PORT_TYPE
+
+

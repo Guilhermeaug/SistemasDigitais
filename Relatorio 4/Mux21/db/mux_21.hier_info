@@ -1,0 +1,8 @@
+|mux_21
+I0 => S.IN0
+I1 => S.IN0
+sel => S.IN1
+sel => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+

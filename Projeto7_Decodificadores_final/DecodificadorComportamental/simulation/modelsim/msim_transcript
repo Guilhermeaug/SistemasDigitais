@@ -1,0 +1,32 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Decodificador_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/guilh/Documents/QuartusProjects/DecodificadorComportamental {C:/Users/guilh/Documents/QuartusProjects/DecodificadorComportamental/Decodificador.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Decodificador
+# 
+# Top level modules:
+# 	Decodificador
+# 
+vsim work.Decodificador
+# vsim work.Decodificador 
+# Loading work.Decodificador
+wave create -driver freeze -pattern counter -startvalue 0000 -endvalue 1111 -type Range -direction Up -period 50ps -step 1 -repeat never -range 3 0 -starttime 0ps -endtime 1000ps sim:/Decodificador/bcd
+add wave -position end  sim:/Decodificador/display
+run
+run
+run
+run
+run
+run
+run
+run

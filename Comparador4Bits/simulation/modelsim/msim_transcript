@@ -1,0 +1,43 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do ComparadorMagnitude_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/guilh/Documents/QuartusProjects/Comparador4Bits {C:/Users/guilh/Documents/QuartusProjects/Comparador4Bits/ComparadorMagnitude.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ComparadorMagnitude
+# 
+# Top level modules:
+# 	ComparadorMagnitude
+# vlog -vlog01compat -work work +incdir+C:/Users/guilh/Documents/QuartusProjects/Comparador4Bits {C:/Users/guilh/Documents/QuartusProjects/Comparador4Bits/ComparadorBit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ComparadorBit
+# 
+# Top level modules:
+# 	ComparadorBit
+# 
+vsim work.ComparadorMagnitude
+# vsim work.ComparadorMagnitude 
+# Loading work.ComparadorMagnitude
+# Loading work.ComparadorBit
+# ** Warning: (vsim-3015) C:/Users/guilh/Documents/QuartusProjects/Comparador4Bits/ComparadorMagnitude.v(22): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'habilita'. The port definition is at: C:/Users/guilh/Documents/QuartusProjects/Comparador4Bits/ComparadorBit.v(2).
+# 
+#         Region: /ComparadorMagnitude/bit3
+wave create -driver freeze -pattern counter -startvalue 0000 -endvalue 1111 -type Binary -direction Up -period 160ps -step 1 -repeat forever -range 3 0 -starttime 0ps -endtime 10000ps sim:/ComparadorMagnitude/A
+wave create -driver freeze -pattern counter -startvalue 0000 -endvalue 1111 -type Binary -direction Up -period 10ps -step 1 -repeat forever -range 3 0 -starttime 0ps -endtime 10000ps sim:/ComparadorMagnitude/B
+add wave -position end  sim:/ComparadorMagnitude/igual
+add wave -position end  sim:/ComparadorMagnitude/maior
+add wave -position end  sim:/ComparadorMagnitude/menor
+# Load canceled
+run -all
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/guilh/Documents/QuartusProjects/Comparador4Bits/simulation/modelsim/wave.do
+wave editwrite -file C:/Users/guilh/Documents/QuartusProjects/Comparador4Bits/simulation/modelsim/wave.do -append
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/guilh/Documents/QuartusProjects/Comparador4Bits/simulation/modelsim/wave.do
+wave editwrite -file C:/Users/guilh/Documents/QuartusProjects/Comparador4Bits/simulation/modelsim/wave.do -append

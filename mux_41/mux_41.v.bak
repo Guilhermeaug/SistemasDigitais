@@ -1,0 +1,24 @@
+/**
+ Projeto: Multiplexador de 4 canais
+ Nomes: Diogo Emanuel, Guilherme Augusto, Luiz Eduardo
+ Data: 09/11/2021
+**/
+
+module mux_41(
+  I0, I1, I2, I3, A, B, S
+);
+
+//Entradas e saidas
+input I0, I1, I2, I3, A, B;
+output S;
+
+//Comunicacao com o outro modulo
+wire S0, S1;
+
+
+
+
+
+
+  
+endmodule

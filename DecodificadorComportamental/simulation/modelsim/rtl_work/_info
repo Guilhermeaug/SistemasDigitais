@@ -1,0 +1,26 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\guilh\Documents\QuartusProjects\DecodificadorComportamental\simulation\modelsim
+vDecodificador
+!i10b 1
+!s100 >^7Nhmi2D;VVA`4TSlLo90
+I`:CBB^id9MB=bN5eLP?8f0
+VV7AQcU]Qf[Ne]8e:YL83D3
+Z1 dC:\Users\guilh\Documents\QuartusProjects\DecodificadorComportamental\simulation\modelsim
+w1642536506
+8C:/Users/guilh/Documents/QuartusProjects/DecodificadorComportamental/Decodificador.v
+FC:/Users/guilh/Documents/QuartusProjects/DecodificadorComportamental/Decodificador.v
+L0 15
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1642621013.780000
+!s107 C:/Users/guilh/Documents/QuartusProjects/DecodificadorComportamental/Decodificador.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/guilh/Documents/QuartusProjects/DecodificadorComportamental|C:/Users/guilh/Documents/QuartusProjects/DecodificadorComportamental/Decodificador.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/guilh/Documents/QuartusProjects/DecodificadorComportamental -O0
+n@decodificador

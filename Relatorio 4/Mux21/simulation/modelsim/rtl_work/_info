@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\guilh\Documents\QuartusProjects\Mux21\simulation\modelsim
+vmux_21
+!i10b 1
+!s100 4i<5QEm;J:OLgeLcb^Sbz2
+I8o5ZlSXZNZVI=CdM<OcB;3
+Vb:J3?=ne2oz?ol<?d<4>`3
+Z1 dC:\Users\guilh\Documents\QuartusProjects\Mux21\simulation\modelsim
+w1638905755
+8C:/Users/guilh/Documents/QuartusProjects/Mux21/mux_21.v
+FC:/Users/guilh/Documents/QuartusProjects/Mux21/mux_21.v
+L0 7
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1638908611.048000
+!s107 C:/Users/guilh/Documents/QuartusProjects/Mux21/mux_21.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/guilh/Documents/QuartusProjects/Mux21|C:/Users/guilh/Documents/QuartusProjects/Mux21/mux_21.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/guilh/Documents/QuartusProjects/Mux21 -O0

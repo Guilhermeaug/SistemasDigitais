@@ -1,0 +1,45 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do SomadorUmBit_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/guilh/Documents/QuartusProjects/SomadorUmBit {C:/Users/guilh/Documents/QuartusProjects/SomadorUmBit/SomadorUmBit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module SomadorUmBit
+# 
+# Top level modules:
+# 	SomadorUmBit
+# 
+vsim work.SomadorUmBit
+# vsim work.SomadorUmBit 
+# Loading work.SomadorUmBit
+# Reopencommand error: wrong # args: should be "::AbstractDataset::fromId id"
+# wrong # args: should be "::AbstractDataset::fromId id"
+#     (procedure "::AbstractDataset::fromId" body line 1)
+#     invoked from within
+# "AbstractDataset::fromId"
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel AbstractDataset::fromId $id"
+#     (procedure "AbstractDatasetCreate" line 2)
+#     invoked from within
+# "AbstractDatasetCreate [$w cget -window_data]"
+#     (procedure "QStructure::ReOpenWindow" line 11)
+#     invoked from within
+# "QStructure::ReOpenWindow .main_pane.structure"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval [$windowobj cget -reopencommand] $windowobj "
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/SomadorUmBit/a
+wave create -driver freeze -pattern clock -initialvalue 0 -period 50ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/SomadorUmBit/b
+wave create -driver freeze -pattern clock -initialvalue 0 -period 25ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/SomadorUmBit/tEntrada
+add wave -position end  sim:/SomadorUmBit/soma
+add wave -position end  sim:/SomadorUmBit/tSaida
+run

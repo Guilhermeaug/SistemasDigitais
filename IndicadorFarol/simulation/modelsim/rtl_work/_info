@@ -1,0 +1,26 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\guilh\Documents\QuartusProjects\simulation\modelsim
+vindicadorFarol
+!i10b 1
+!s100 :bUdYVo7O@AZ_]^9LBVnY1
+ImPFh7NHoaHn:=G85MlnJC2
+VoW1O6@@GCc7W:PeF9RDcJ3
+Z1 dC:\Users\guilh\Documents\QuartusProjects\simulation\modelsim
+w1636484158
+8C:/Users/guilh/Documents/QuartusProjects/indicadorFarol.v
+FC:/Users/guilh/Documents/QuartusProjects/indicadorFarol.v
+L0 6
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1636485680.372000
+!s107 C:/Users/guilh/Documents/QuartusProjects/indicadorFarol.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/guilh/Documents/QuartusProjects|C:/Users/guilh/Documents/QuartusProjects/indicadorFarol.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/guilh/Documents/QuartusProjects -O0
+nindicador@farol

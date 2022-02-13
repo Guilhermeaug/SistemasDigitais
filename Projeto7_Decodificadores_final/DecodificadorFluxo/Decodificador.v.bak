@@ -1,0 +1,22 @@
+module Decodificador(
+  input [4:0] entrada,
+
+  output a,
+  output b,
+  output c,
+  output d,
+  output e,
+  output f,
+  output g,
+);
+
+assign a = (~B & ~D) | C | (B & D) | A;
+assign b = ~B | ~C~D | CD | A; 
+assign c = ~C | D | B | A;
+assign d = ~B~D | ~BC | C~D | B~CD | A;
+assign e = (~B & ~D) | (c & ~D) | (A & C) | (A&B);
+assign f = (~C & ~D) |(B & ~C) | (B&~D)| A;
+assign g = (~B & C) |(B & ~C) |(B & ~D) | A;
+  
+
+endmodule

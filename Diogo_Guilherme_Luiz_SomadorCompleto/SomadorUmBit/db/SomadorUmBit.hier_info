@@ -1,0 +1,14 @@
+|SomadorUmBit
+a => soma.IN0
+a => tSaida.IN0
+a => tSaida.IN0
+b => soma.IN1
+b => tSaida.IN0
+b => tSaida.IN1
+tEntrada => soma.IN1
+tEntrada => tSaida.IN1
+tEntrada => tSaida.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+tSaida <= tSaida.DB_MAX_OUTPUT_PORT_TYPE
+
+

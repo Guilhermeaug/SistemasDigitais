@@ -1,0 +1,17 @@
+|ContadorMod13
+clock => counter[0]~reg0.CLK
+clock => counter[1]~reg0.CLK
+clock => counter[2]~reg0.CLK
+clock => counter[3]~reg0.CLK
+reset => counter[1].IN0
+reset => counter[2]~reg0.ACLR
+reset => counter[3]~reg0.ACLR
+reset => counter[3].IN0
+preset => counter[1].IN1
+preset => counter[3].IN1
+counter[0] <= counter[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+counter[1] <= counter[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+counter[2] <= counter[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+counter[3] <= counter[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

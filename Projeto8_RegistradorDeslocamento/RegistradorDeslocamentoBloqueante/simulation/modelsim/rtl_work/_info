@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\guilh\Documents\QuartusProjects\RegistradorDeslocamentoBloqueante\simulation\modelsim
+vRegistradorDeslocamentoBloqueante
+IYAlCMUhZdM`=CV]lHX4Q:2
+VJD8^=gGbC=gTZ1n<]dEY51
+Z1 dC:\Users\guilh\Documents\QuartusProjects\RegistradorDeslocamentoBloqueante\simulation\modelsim
+w1643133310
+8C:/Users/guilh/Documents/QuartusProjects/RegistradorDeslocamentoBloqueante/RegistradorDeslocamentoBloqueante.v
+FC:/Users/guilh/Documents/QuartusProjects/RegistradorDeslocamentoBloqueante/RegistradorDeslocamentoBloqueante.v
+L0 22
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+n@registrador@deslocamento@bloqueante
+!i10b 1
+!s100 Xg]U[j>>zBN4zAH3BQJT51
+!s85 0
+!s108 1643133439.340000
+!s107 C:/Users/guilh/Documents/QuartusProjects/RegistradorDeslocamentoBloqueante/RegistradorDeslocamentoBloqueante.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/guilh/Documents/QuartusProjects/RegistradorDeslocamentoBloqueante|C:/Users/guilh/Documents/QuartusProjects/RegistradorDeslocamentoBloqueante/RegistradorDeslocamentoBloqueante.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/guilh/Documents/QuartusProjects/RegistradorDeslocamentoBloqueante -O0
+vTB_regis
+!i10b 1
+!s100 MJe9Hj<FdZ3=n_LJlcabE2
+I5>ZH8BzKT_8KJ9AQ<D[l60
+VzA7OWnJ^NiAdWY<M7L1HL0
+R1
+w1643133412
+8C:/Users/guilh/Documents/QuartusProjects/RegistradorDeslocamentoBloqueante/testbench_registradorBloqueante.v
+FC:/Users/guilh/Documents/QuartusProjects/RegistradorDeslocamentoBloqueante/testbench_registradorBloqueante.v
+L0 11
+R2
+r1
+!s85 0
+31
+!s108 1643133439.421000
+!s107 C:/Users/guilh/Documents/QuartusProjects/RegistradorDeslocamentoBloqueante/testbench_registradorBloqueante.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/guilh/Documents/QuartusProjects/RegistradorDeslocamentoBloqueante|C:/Users/guilh/Documents/QuartusProjects/RegistradorDeslocamentoBloqueante/testbench_registradorBloqueante.v|
+!s101 -O0
+R3
+R4
+n@t@b_regis

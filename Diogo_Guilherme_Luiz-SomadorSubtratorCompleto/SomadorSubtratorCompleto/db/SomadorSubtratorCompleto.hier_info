@@ -1,0 +1,87 @@
+|SomadorSubtratorCompleto
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => comb.IN0
+B[1] => comb.IN0
+B[2] => comb.IN0
+B[3] => comb.IN0
+M => M.IN2
+resultado[0] <= SomadorUmBit:somadorUm.port3
+resultado[1] <= SomadorUmBit:somadorDois.port3
+resultado[2] <= SomadorUmBit:somadorTres.port3
+resultado[3] <= SomadorUmBit:somadorQuatro.port3
+resultado[4] <= SomadorUmBit:somadorCinco.port3
+
+
+|SomadorSubtratorCompleto|SomadorUmBit:somadorUm
+a => soma.IN0
+a => tSaida.IN0
+a => tSaida.IN0
+b => soma.IN1
+b => tSaida.IN0
+b => tSaida.IN1
+tEntrada => soma.IN1
+tEntrada => tSaida.IN1
+tEntrada => tSaida.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+tSaida <= tSaida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtratorCompleto|SomadorUmBit:somadorDois
+a => soma.IN0
+a => tSaida.IN0
+a => tSaida.IN0
+b => soma.IN1
+b => tSaida.IN0
+b => tSaida.IN1
+tEntrada => soma.IN1
+tEntrada => tSaida.IN1
+tEntrada => tSaida.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+tSaida <= tSaida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtratorCompleto|SomadorUmBit:somadorTres
+a => soma.IN0
+a => tSaida.IN0
+a => tSaida.IN0
+b => soma.IN1
+b => tSaida.IN0
+b => tSaida.IN1
+tEntrada => soma.IN1
+tEntrada => tSaida.IN1
+tEntrada => tSaida.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+tSaida <= tSaida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtratorCompleto|SomadorUmBit:somadorQuatro
+a => soma.IN0
+a => tSaida.IN0
+a => tSaida.IN0
+b => soma.IN1
+b => tSaida.IN0
+b => tSaida.IN1
+tEntrada => soma.IN1
+tEntrada => tSaida.IN1
+tEntrada => tSaida.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+tSaida <= tSaida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtratorCompleto|SomadorUmBit:somadorCinco
+a => soma.IN0
+a => tSaida.IN0
+a => tSaida.IN0
+b => soma.IN1
+b => tSaida.IN0
+b => tSaida.IN1
+tEntrada => soma.IN1
+tEntrada => tSaida.IN1
+tEntrada => tSaida.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+tSaida <= tSaida.DB_MAX_OUTPUT_PORT_TYPE
+
+

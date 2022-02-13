@@ -1,0 +1,11 @@
+|indicadorFarol
+farol => sinalizador.IN0
+farol => sinalizador.IN0
+porta => sinalizador.IN1
+porta => sinalizador.IN1
+chave => sinalizador.IN1
+chave => sinalizador.IN1
+chave => sinalizador.IN1
+sinalizador <= sinalizador.DB_MAX_OUTPUT_PORT_TYPE
+
+

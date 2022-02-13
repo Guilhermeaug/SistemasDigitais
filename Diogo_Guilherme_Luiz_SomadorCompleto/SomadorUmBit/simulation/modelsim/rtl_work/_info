@@ -1,0 +1,26 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\guilh\Documents\QuartusProjects\SomadorUmBit\simulation\modelsim
+vSomadorUmBit
+!i10b 1
+!s100 ::R1ig?8X^eE_i22[BjX<2
+Ig5`@5nX3gc0YX0`5h6eH:0
+V0Uh0@_mfH;9YnX5c2SlS;2
+Z1 dC:\Users\guilh\Documents\QuartusProjects\SomadorUmBit\simulation\modelsim
+w1640116875
+8C:/Users/guilh/Documents/QuartusProjects/SomadorUmBit/SomadorUmBit.v
+FC:/Users/guilh/Documents/QuartusProjects/SomadorUmBit/SomadorUmBit.v
+L0 19
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1640116926.717000
+!s107 C:/Users/guilh/Documents/QuartusProjects/SomadorUmBit/SomadorUmBit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/guilh/Documents/QuartusProjects/SomadorUmBit|C:/Users/guilh/Documents/QuartusProjects/SomadorUmBit/SomadorUmBit.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/guilh/Documents/QuartusProjects/SomadorUmBit -O0
+n@somador@um@bit

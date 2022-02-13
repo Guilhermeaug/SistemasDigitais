@@ -1,0 +1,26 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\guilh\Documents\QuartusProjects\DecodificadorFluxo\simulation\modelsim
+vDecodificador
+!i10b 1
+!s100 n5LnVWTNkKA_]cSAdhYV70
+I:ie_B?c^d2_5]WWlNdm3b2
+V>Pj^=A]PNBG470aQZ4]EI1
+Z1 dC:\Users\guilh\Documents\QuartusProjects\DecodificadorFluxo\simulation\modelsim
+w1642536591
+8C:/Users/guilh/Documents/QuartusProjects/DecodificadorFluxo/Decodificador.v
+FC:/Users/guilh/Documents/QuartusProjects/DecodificadorFluxo/Decodificador.v
+L0 25
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1642620970.227000
+!s107 C:/Users/guilh/Documents/QuartusProjects/DecodificadorFluxo/Decodificador.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/guilh/Documents/QuartusProjects/DecodificadorFluxo|C:/Users/guilh/Documents/QuartusProjects/DecodificadorFluxo/Decodificador.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/guilh/Documents/QuartusProjects/DecodificadorFluxo -O0
+n@decodificador
